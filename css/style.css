@@ -3,18 +3,16 @@
   margin: 0;
   padding: 0;
 }
-/* Prima sezione */
-section {
-
-}
-div {
+/* immagini affiancate */
+div.ipad, div.iphone, div.cuffie {
   display: inline-block;
   position: relative;
 }
+/* fine immagini affiancate */
 img {
   position: relative;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 .sconto30 {
@@ -29,20 +27,13 @@ img {
   top: 0;
   right: 0;
 }
-.cuore: {
-  display: none;
+.cuore {
+  display: block;
   position: absolute;
+  bottom: 10px;
+  right: 50%
 }
 .red {
   color: red;
   position: absolute;
 }
-
-
-/* Fine prima sezione */
-
-
-
-/* Seconda sezione */
-
-/* Fine Seconda sezione */
