@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Prima sezione */
+section {
+
+}
+div {
+  display: inline-block;
+  position: relative;
+}
+img {
+  position: relative;
+  width: 100%;
+  height: 100%
+}
+
+.sconto30 {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sconto5 {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.cuore: {
+  display: none;
+  position: absolute;
+}
+.red {
+  color: red;
+  position: absolute;
+}
+
+
+/* Fine prima sezione */
+
+
+
+/* Seconda sezione */
+
+/* Fine Seconda sezione */
