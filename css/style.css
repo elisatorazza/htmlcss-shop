@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+section {
+  width: 1000px;
+  margin: auto;
+}
 /* immagini affiancate */
 div.ipad, div.iphone, div.cuffie {
   display: inline-block;
@@ -15,31 +19,34 @@ img {
   height: 100%;
 }
 
-.sconto30 {
-  background-color: red;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.sconto5 {
+.sconto {
   background-color: green;
   position: absolute;
   top: 0;
   right: 0;
 }
+.sconto.rosso{
+  background-color: red;
+}
 .cuore {
   display: none;
   position: absolute;
+  font-size: 30px;
   bottom: 10px;
-  right: 50%;
+  width: 100%;
+  text-align: center;
   z-index: 1;
 }
-
+.second {
+  margin-top: 30px;
+}
 .red {
   display: block;
   position: absolute;
+  font-size: 30px;
   bottom: 10px;
-  right: 50%;
+  width:100%;
+  text-align: center;
   color: red;
 }
 
