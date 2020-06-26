@@ -7,6 +7,10 @@ section {
   width: 1000px;
   margin: auto;
 }
+
+.second {
+  margin-top: 30px;
+}
 /* immagini affiancate */
 div.ipad, div.iphone, div.cuffie {
   display: inline-block;
@@ -18,7 +22,7 @@ img {
   width: 100%;
   height: 100%;
 }
-
+/* impostazioni sconti */
 .sconto {
   background-color: green;
   position: absolute;
@@ -28,6 +32,9 @@ img {
 .sconto.rosso{
   background-color: red;
 }
+/* fine impostazione sconti */
+
+/* impostazioni cuori */
 .cuore {
   display: none;
   position: absolute;
@@ -36,9 +43,6 @@ img {
   width: 100%;
   text-align: center;
   z-index: 1;
-}
-.second {
-  margin-top: 30px;
 }
 .red {
   display: block;
@@ -49,7 +53,7 @@ img {
   text-align: center;
   color: red;
 }
-
 div:hover .cuore {
   display: block;
 }
+/* fine impostazioni cuori */
