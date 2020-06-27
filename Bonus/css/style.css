@@ -1,0 +1,53 @@
+/* reset pagina */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* /reset pagina */
+
+/* immagini centrate */
+section {
+  width: 950px;
+  margin: auto;
+}
+/* /reset pagina */
+
+/* elementi lista affiancate */
+li {
+  display: inline-block;
+  width: 300px;
+  position: relative;
+}
+/* /elenenti lista affiancati */
+
+/* Inizio sconti */
+.sconto {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.cinque {
+  background-color: red;
+}
+/* Fine sconti */
+
+/* inizio proprietà cuori */
+.heart {
+  color: black;
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+.heart.red {
+  color: red;
+  display: block;
+}
+li:hover .heart {
+  display: block;
+}
+/* fine proprietà cuori */
